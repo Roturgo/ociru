@@ -5,12 +5,12 @@ This Bash script downloads custom Suricata rulesets to an OPNsense device. It ca
 
 ## Prerequisites
 1. Install Bash:
-``` bash
+```bash
 pkg install bash
 ```
 
 2. Install cURL:
-``` bash
+```bash
 pkg install curl
 ```
 
@@ -18,16 +18,16 @@ pkg install curl
 1. Place the `ociru.sh` script in a location accessible by root's cron daemon, e.g., `/usr/local/sbin/ociru.sh`
 
 2. Test the update script:
-``` bash
+```bash
 bash /usr/local/sbin/ociru.sh
 ```
 
 3. (Optional) Add a crontab entry for recurring updates:
-``` bash
+```bash
 crontab -e
 ```
 Append the following entry to crontab (This example will run at 20:31 every evening):
-```
+```bash
 31      20      *       *       *       (/usr/local/bin/ociru.sh) > /dev/null
 ```
 
