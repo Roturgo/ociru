@@ -77,7 +77,6 @@ echo "Downloads finished at `date`" | tee -a ${log_file}
 # Suricata interface rule directories   #
 #########################################
 echo "Copying ${hunting} ${etn_aggressive} to ${opn_rules}" | tee -a ${log_file}
-
 cp ${hunting} ${etn_aggressive} ${opn_rules}
 if [ $? -ne 0 ]; then
         echo "Copy operation for ${opn_rules} failed, exiting!" | tee -a ${log_file}
