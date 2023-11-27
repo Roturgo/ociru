@@ -1,7 +1,7 @@
 # ociru: OPNsense Custom IDS Rule Updater
 This Bash script downloads custom Suricata rulesets to an OPNsense device. It can be used to add rulesets to your Suricata IDS instance that aren't officially supported or available in the OPNsense GUI.
 
-NOTE: This project is in no way affiliated with or supported by [OPNsense](https://opnsense.org/) or Deciso B.V. It is simply a helper script written by a happy user of OPNsense and provided to the community as-is, in the hopes that it may be useful.
+**NOTE:** This project is in **no** way affiliated with or supported by [OPNsense](https://opnsense.org/) or Deciso B.V. It is simply a helper script written by a happy user of OPNsense and provided to the community as-is, in the hopes that it may be useful.
 
 ## Prerequisites
 1. Install Bash:
