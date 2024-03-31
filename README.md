@@ -28,7 +28,7 @@ crontab -e
 ```
 Append the following entry to crontab (This example will run at 20:31 every evening):
 ```bash
-31      20      *       *       *       (/usr/local/bin/ociru.sh) > /dev/null
+31      20      *       *       *       (/usr/local/sbin/ociru.sh) > /dev/null
 ```
 
 ## Rulesets
