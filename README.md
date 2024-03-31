@@ -35,3 +35,6 @@ Append the following entry to crontab (This example will run at 20:31 every even
 This script downloads the following rulesets:
 * [Etnetera Security - Aggressive IP address feed](https://security.etnetera.cz/feeds/)
 * [Travis Green's Suricata Hunting Rules](https://github.com/travisbgreen/hunting-rules)
+
+## Logs
+This script appends the output of each run to a log file located at `/var/log/ociru_update.log`
